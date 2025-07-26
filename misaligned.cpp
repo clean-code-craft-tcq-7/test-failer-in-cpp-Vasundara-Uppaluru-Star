@@ -3,7 +3,7 @@
 
 
 int index_to_pair_number(major_index, minor_index) {
-    return major_index * 5 + minor_index;
+    return major_index * 5 + minor_index + 1;
 }
 
 int printColorMap() {

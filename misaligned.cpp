@@ -2,7 +2,7 @@
 #include <assert.h>
 
 
-int index_to_pair_number(major_index, minor_index) {
+int index_to_pair_number(int major_index, int minor_index) {
     return major_index * 5 + minor_index + 1;
 }
 
